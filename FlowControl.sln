@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowControl", "FlowControl.csproj", "{C298889B-6491-4003-AEB4-B85F4134C08C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "..\Helpers\Helpers.csproj", "{E108847D-27A1-46CF-9E48-12211499AD92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions", "..\Abstractions\Abstractions.csproj", "{BDAFB023-0353-467B-9D9D-7AAF94F91E4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C298889B-6491-4003-AEB4-B85F4134C08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C298889B-6491-4003-AEB4-B85F4134C08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C298889B-6491-4003-AEB4-B85F4134C08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E108847D-27A1-46CF-9E48-12211499AD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E108847D-27A1-46CF-9E48-12211499AD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E108847D-27A1-46CF-9E48-12211499AD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E108847D-27A1-46CF-9E48-12211499AD92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDAFB023-0353-467B-9D9D-7AAF94F91E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAFB023-0353-467B-9D9D-7AAF94F91E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAFB023-0353-467B-9D9D-7AAF94F91E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAFB023-0353-467B-9D9D-7AAF94F91E4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
