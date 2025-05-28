@@ -1,17 +1,16 @@
 ﻿using Abstractions;
 
-namespace FlowControl.UI
-{
-    class ConsoleUI : IUI
-    {
-        public void Print(string message)
-        {
-            Console.WriteLine(message);
-        }
+namespace FlowControl.UI;
 
-        public string GetInput()
-        {
-            return Console.ReadLine() ?? string.Empty;
-        }
+class ConsoleUI : IUI
+{
+    public void Print(string message)
+    {
+        Console.WriteLine(message);
+    }
+
+    public string GetInput()
+    {
+        return Console.ReadLine() ?? string.Empty;
     }
 }
